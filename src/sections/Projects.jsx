@@ -3,7 +3,7 @@ import { personalProjects } from '../constants';
 
 function Projects() {
   return (
-    <div className="max-w-7xl lg:mx-auto mx-10 flex flex-col justify-center c-space bg-gradient-to-r from-slate-800 via-gray-900 to-slate-800 py-10 rounded-lg" id='projects'>
+    <div className="max-w-7xl lg:mx-auto mx-5 flex flex-col justify-center c-space bg-gradient-to-r from-slate-800 via-gray-900 to-slate-800 py-10 rounded-lg" id='projects'>
       <h2 className="text-3xl font-bold text-gray-100 text-center my-10">
         Personal Projects
       </h2>

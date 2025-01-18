@@ -20,7 +20,7 @@ const Contact = () => {
     }, 2000);
   };
   return (
-    <section className="c-space lg:mx-auto mx-10 py-10 px-5 border-2 border-gray-500 mt-10 mb-5 rounded-lg" id="contact">
+    <section className="c-space lg:mx-auto mx-5 py-10 px-5 border-2 border-gray-500 mt-10 mb-5 rounded-lg" id="contact">
       <div className="relative flex items-center justify-center flex-col">
         <div className="border-2 border-gray-500 py-7 px-5 rounded-md">
           <h3 className="head-text ">Contact</h3>
