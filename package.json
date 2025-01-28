@@ -2,12 +2,13 @@
   "name": "online-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://AimanFariz.github.io/",
+  "homepage": "https://aimfariz.vercel.app",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@vercel/analytics": "^1.4.1",
     "axios": "^1.7.9",
     "dotenv": "^16.4.7",
     "get-medium": "^1.0.3",
@@ -17,6 +18,7 @@
     "react-globe.gl": "^2.30.0",
     "react-scripts": "5.0.1",
     "react-simple-typewriter": "^5.0.1",
+    "typescript": "^5.7.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
