@@ -10,13 +10,13 @@ const Main = () => {
         </p>
         <span className="text-white text-center">
         <Typewriter
-            words={['Data Enthusiast', 'Based in Tulsa, Oklahoma']}
+            words={['Sports Data Enthusiast ⚽🏀⚾🏈📊', 'Full-Stack Developer 💻','Polyglot 🌏', 'Lifelong learner']}
             loop={false}
             cursor
             cursorStyle='_'
-            typeSpeed={30}
+            typeSpeed={40}
             deleteSpeed={50}
-            delaySpeed={2500}
+            delaySpeed={2000}
           />
         </span>
       </div>

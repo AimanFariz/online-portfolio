@@ -12,7 +12,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I’m Aiman Fariz</p>
               <p className="grid-subtext">
-              I'm a Presidential Scholarship receipient @ <a href="https://utulsa.edu/" className='hover:text-white-800'>The University of Tulsa</a>, currently a sophomore double majoring in Computer Science and French, and minoring in Mathematics. My interests include sports analytics, language learning, and open source contributions.
+              I'm a Presidential Scholar @ <a href="https://utulsa.edu/" className='hover:text-white-800'>The University of Tulsa</a>, currently a junior, triple majoring in Computer Science, Mathematics, and French. My interests include sports analytics, language learning, and open source contributions.
               </p>
             </div>
           </div>
@@ -26,7 +26,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-              My go-to tech stack includes React for frontend development, Node.js for backends, and MongoDB for database management. I also use Tailwind for styling and Figma for UI/UX design. For data analysis, I leverage Python libraries, often integrating with Google Sheets and Google Colab.
+              My go-to tech stack includes React with Typescript for frontend development, Node.js for backends, and MongoDB for database management. I also use Tailwind for styling and Figma for UI/UX design. For data analysis, I leverage Python, R, and SQL.
               </p>
             </div>
           </div>

@@ -1,31 +1,64 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { personalProjects } from '../constants';
 
 function Projects() {
+  const [filter, setFilter] = useState('All');
+
+  const categories = ['All', ...new Set(personalProjects.map(p => p.category))];
+
+  const filteredProjects =
+    filter === 'All'
+      ? personalProjects
+      : personalProjects.filter(p => p.category === filter);
+
   return (
-    <div className="max-w-7xl lg:mx-auto mx-5 flex flex-col justify-center c-space bg-gradient-to-r from-slate-800 via-gray-900 to-slate-800 py-10 rounded-lg" id='projects'>
+    <div className="max-w-7xl lg:mx-auto mx-5 flex flex-col justify-center c-space bg-gradient-to-r from-slate-800 via-gray-900 to-slate-800 py-10 rounded-lg" id="projects">
       <h2 className="text-3xl font-bold text-gray-100 text-center my-10">
         Personal Projects
       </h2>
-      <p className='text-gray-300 text-center mb-10'>A collection of some of my side projects and Medium articles</p>
-      <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-        {personalProjects.map((project) => (
-          <a href={project.link} target="_blank">
-            <div
+      <p className="text-gray-300 text-center mb-10">
+        Some of my side projects and Medium articles:
+      </p>
+
+      {/* Filter buttons */}
+      <div className="flex justify-center gap-4 mb-8">
+        {categories.map((cat) => (
+          <button
+            key={cat}
+            onClick={() => setFilter(cat)}
+            className={`px-4 py-2 rounded transition-colors duration-300 ${
+              filter === cat
+                ? 'bg-purple-600 text-white'
+                : 'bg-gray-200 text-gray-800 hover:bg-purple-500 hover:text-white'
+            }`}
+          >
+            {cat}
+          </button>
+        ))}
+      </div>
+
+      {/* Projects grid */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        {filteredProjects.map((project) => (
+          <a
+            href={project.link}
+            target="_blank"
             key={project.id}
-            className="rounded-lg shadow-lg overflow-hidden bg-white expand-hover">
-            <img
-              src={project.image}
-              alt={project.title}
-              className="w-full h-48 object-cover mx-auto"
-            />
-            <div className="p-4">
-              <h3 className="text-lg font-semibold text-gray-800">
-                {project.title}
-              </h3>
-              <p className="text-sm text-gray-600">{project.category}</p>
+            className="transition-opacity duration-500 opacity-0 animate-fadeIn"
+          >
+            <div className="rounded-lg shadow-lg overflow-hidden bg-white expand-hover">
+              <img
+                src={project.image}
+                alt={project.title}
+                className="w-full h-48 object-cover mx-auto"
+              />
+              <div className="p-4">
+                <h3 className="text-lg font-semibold text-gray-800">
+                  {project.title}
+                </h3>
+                <p className="text-sm text-gray-600">{project.category}</p>
+              </div>
             </div>
-          </div>
           </a>
         ))}
       </div>
