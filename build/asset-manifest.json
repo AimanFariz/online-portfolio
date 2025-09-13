@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/AimanFariz/online-portfolio/static/css/main.3d5063b7.css",
-    "main.js": "/AimanFariz/online-portfolio/static/js/main.e1d5a45d.js",
-    "static/js/453.3c98a1b9.chunk.js": "/AimanFariz/online-portfolio/static/js/453.3c98a1b9.chunk.js",
+    "main.css": "/AimanFariz/online-portfolio/static/css/main.785009d1.css",
+    "main.js": "/AimanFariz/online-portfolio/static/js/main.6646830a.js",
+    "static/js/453.20549d6d.chunk.js": "/AimanFariz/online-portfolio/static/js/453.20549d6d.chunk.js",
     "index.html": "/AimanFariz/online-portfolio/index.html",
-    "main.3d5063b7.css.map": "/AimanFariz/online-portfolio/static/css/main.3d5063b7.css.map",
-    "main.e1d5a45d.js.map": "/AimanFariz/online-portfolio/static/js/main.e1d5a45d.js.map",
-    "453.3c98a1b9.chunk.js.map": "/AimanFariz/online-portfolio/static/js/453.3c98a1b9.chunk.js.map"
+    "main.785009d1.css.map": "/AimanFariz/online-portfolio/static/css/main.785009d1.css.map",
+    "main.6646830a.js.map": "/AimanFariz/online-portfolio/static/js/main.6646830a.js.map",
+    "453.20549d6d.chunk.js.map": "/AimanFariz/online-portfolio/static/js/453.20549d6d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d5063b7.css",
-    "static/js/main.e1d5a45d.js"
+    "static/css/main.785009d1.css",
+    "static/js/main.6646830a.js"
   ]
 }
