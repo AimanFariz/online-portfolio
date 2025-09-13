@@ -12,7 +12,7 @@ const Contact = () => {
   const [hasCopied, setHasCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText('aimanfarizz33@gmail.com');
+    navigator.clipboard.writeText('aba9132@utulsa.edu');
     setHasCopied(true);
 
     setTimeout(() => {
@@ -33,10 +33,9 @@ const Contact = () => {
             <ion-icon name="mail-outline"></ion-icon>
             <p className="grid-subtext text-center">Email</p>
             </div>
-              
               <div className="copy-container" onClick={handleCopy}>
                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
-                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient">aimanfarizz33@gmail.com</p>
+                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient">aba9132@utulsa.edu</p>
               </div>
             </div>
           </div>
@@ -44,10 +43,30 @@ const Contact = () => {
             <div className="space-y-2">
             <div className='flex text-white justify-center gap-2 items-center'>
             <ion-icon name="location-outline"></ion-icon>
-            <p className="grid-subtext text-center">Address</p>
+            <p className="grid-subtext text-center">Based in</p>
             </div>
               <div className="copy-container">
                 <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient">Tulsa, Oklahoma, USA</p>
+              </div>
+            </div>
+          </div>
+          <div className="py-5 px-10 mt-5 border-gray-500 rounded-md border-2">
+            <div className="space-y-2">
+            <div className='flex text-white justify-center gap-2 items-center'>
+            <ion-icon name="document-outline"></ion-icon>
+            <p className="grid-subtext text-center">Resume</p>
+            </div>
+              <div className="copy-container flex flex-col">
+                <p className="lg:text-xl md:text-large font-medium text-gray_gradient">Curious what else I’ve been up to?</p>
+                <a
+                  href="https://drive.google.com/file/d/1TcZvnjHQsAQZwBiUMl2_7-5L8Ldsj6YC/view?usp=sharing"
+                  target="_blank"
+                  className="inline-flex items-center gap-2 mt-2 px-6 py-5 bg-purple-600 text-white rounded-lg font-semibold hover:bg-purple-500 transition-colors"
+                >
+    <ion-icon name="document-text-outline" />
+    Check my CV!
+  </a>
+
               </div>
             </div>
           </div>
