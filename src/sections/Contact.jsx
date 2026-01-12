@@ -59,7 +59,7 @@ const Contact = () => {
               <div className="copy-container flex flex-col">
                 <p className="lg:text-xl md:text-large font-medium text-gray_gradient">Curious what else I’ve been up to?</p>
                 <a
-                  href="https://drive.google.com/file/d/1TcZvnjHQsAQZwBiUMl2_7-5L8Ldsj6YC/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1D8SYmYn7w_W9qMwmzbAkhCAOpL3MbvEu/view?usp=sharing"
                   target="_blank"
                   className="inline-flex items-center gap-2 mt-2 px-6 py-5 bg-purple-600 text-white rounded-lg font-semibold hover:bg-purple-500 transition-colors"
                 >
