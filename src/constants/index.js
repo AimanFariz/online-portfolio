@@ -63,8 +63,6 @@ export const navLinks = [
       image:"/assets/don-quiz.jpg",
       link:"https://don-pollo-quiz.vercel.app/"
     },
-    
-    
     {
       id: 7,
       title:"CareerCrisp",
@@ -78,6 +76,21 @@ export const navLinks = [
       category:"Sports Analytics",
       image:"/assets/copa.webp",
       link:"https://medium.com/@aimanfarizz/copa-america-2024-shot-analysis-7c51193e161f"
+    },
+
+    {
+      id: 9,
+      title:"Gameplanning for 2-High Coverage",
+      category:"Sports Analytics",
+      image:"/assets/blitz-thumbnail.png",
+      link:"https://drive.google.com/file/d/10ktK4mZAmEQPRPSqT5EaednjJWCRiVwe/view?usp=sharing"
+    },
+    {
+      id: 10,
+      title:"Craftcha",
+      category:"Web Development",
+      image:"/assets/craftcha.png",
+      link:"https://github.com/AimanFariz/craftcha"
     },
     
   ]
@@ -94,11 +107,11 @@ export const navLinks = [
   };
 
 
-export const articles = [
-  {
-    id:1,
-    title:"",
-    link:"",
-    image:""
-  }
-]
+// export const articles = [
+//   {
+//     id:1,
+//     title:"",
+//     link:"",
+//     image:""
+//   }
+// ]
