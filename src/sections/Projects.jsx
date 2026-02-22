@@ -42,7 +42,7 @@ function Projects() {
         {filteredProjects.map((project) => (
           <a
             href={project.link}
-            target="_blank"
+            target="_blank" rel="noopener noreferrer"
             key={project.id}
             className="transition-opacity duration-500 opacity-0 animate-fadeIn"
           >

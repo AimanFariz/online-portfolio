@@ -1,14 +1,14 @@
-import { useRef, useState } from 'react';
+import {useState } from 'react';
 
 const Contact = () => {
-  const formRef = useRef();
-  const [loading, setLoading] = useState(false);
+  // const formRef = useRef();
+  // const [loading, setLoading] = useState(false);
 
   const [form, setForm] = useState({ name: '', email: '', message: '' });
 
-  const handleChange = ({ target: { name, value } }) => {
-    setForm({ ...form, [name]: value });
-  };
+  // const handleChange = ({ target: { name, value } }) => {
+  //   setForm({ ...form, [name]: value });
+  // };
   const [hasCopied, setHasCopied] = useState(false);
 
   const handleCopy = () => {
@@ -60,7 +60,7 @@ const Contact = () => {
                 <p className="lg:text-xl md:text-large font-medium text-gray_gradient">Curious what else I’ve been up to?</p>
                 <a
                   href="https://drive.google.com/file/d/1d0BScjuYQfGYfdNdr_h7Je4Mbo_CtBNe/view?usp=sharing"
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 mt-2 px-6 py-5 bg-purple-600 text-white rounded-lg font-semibold hover:bg-purple-500 transition-colors"
                 >
     <ion-icon name="document-text-outline" />
