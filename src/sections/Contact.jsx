@@ -4,7 +4,7 @@ const Contact = () => {
   // const formRef = useRef();
   // const [loading, setLoading] = useState(false);
 
-  const [form, setForm] = useState({ name: '', email: '', message: '' });
+  // const [form, setForm] = useState({ name: '', email: '', message: '' });
 
   // const handleChange = ({ target: { name, value } }) => {
   //   setForm({ ...form, [name]: value });
