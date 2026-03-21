@@ -23,10 +23,10 @@ export const navLinks = [
   export const personalProjects = [
     {
       id: 1,
-      title:"Ctrl, Shift, Delete: Analysis of the 2023 MLB infield rule changes",
+      title:"Ctrl, Shift, Delete",
       category:"Sports Analytics",
-      image:"/assets/blitz-thumbnail.png",
-      link:"https://drive.google.com/file/d/10ktK4mZAmEQPRPSqT5EaednjJWCRiVwe/view?usp=sharing"
+      image:"/assets/cover.png",
+      link:"https://www.linkedin.com/feed/update/urn:li:activity:7440789302390919168/"
     },
     {
       id: 2,
@@ -110,13 +110,3 @@ export const navLinks = [
       targetPosition: isSmall ? [-5, -10, -10] : isMobile ? [-9, -10, -10] : isTablet ? [-11, -7, -10] : [-13, -13, -10],
     };
   };
-
-
-// export const articles = [
-//   {
-//     id:1,
-//     title:"",
-//     link:"",
-//     image:""
-//   }
-// ]
