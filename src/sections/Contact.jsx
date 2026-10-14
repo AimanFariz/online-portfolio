@@ -43,10 +43,10 @@ const Contact = () => {
             <div className="space-y-2">
             <div className='flex text-white justify-center gap-2 items-center'>
             <ion-icon name="location-outline"></ion-icon>
-            <p className="grid-subtext text-center">Based in</p>
+            <p className="grid-subtext text-center">Currently based in</p>
             </div>
               <div className="copy-container">
-                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient">Tulsa, Oklahoma, USA</p>
+                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient">Lille, France</p>
               </div>
             </div>
           </div>
