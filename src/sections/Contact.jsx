@@ -1,22 +1,34 @@
 import {useState } from 'react';
 
 const Contact = () => {
-  // const formRef = useRef();
-  // const [loading, setLoading] = useState(false);
 
-  // const [form, setForm] = useState({ name: '', email: '', message: '' });
+  const [hasCopiedPersonal, setHasCopiedPersonal] = useState(false);
+  const [hasCopiedTulsa, setHasCopiedTulsa] = useState(false);
+  const [hasCopiedJunia, setHasCopiedJunia] = useState(false);
 
-  // const handleChange = ({ target: { name, value } }) => {
-  //   setForm({ ...form, [name]: value });
-  // };
-  const [hasCopied, setHasCopied] = useState(false);
 
-  const handleCopy = () => {
-    navigator.clipboard.writeText('aba9132@utulsa.edu');
-    setHasCopied(true);
+  const handleCopyPersonal = () => {
+    navigator.clipboard.writeText('aimanfarizz33@gmail.com');
+    setHasCopiedPersonal(true);
 
     setTimeout(() => {
-      setHasCopied(false);
+      setHasCopiedPersonal(false);
+    }, 2000);
+  };
+  const handleCopyJunia = () => {
+    navigator.clipboard.writeText('aiman-fariz.akmal@student.junia.com');
+    setHasCopiedJunia(true);
+
+    setTimeout(() => {
+      setHasCopiedJunia(false);
+    }, 2000);
+  };
+  const handleCopyTulsa = () => {
+    navigator.clipboard.writeText('aba9132@utulsa.edu');
+    setHasCopiedTulsa(true);
+
+    setTimeout(() => {
+      setHasCopiedTulsa(false);
     }, 2000);
   };
   return (
@@ -33,9 +45,20 @@ const Contact = () => {
             <ion-icon name="mail-outline"></ion-icon>
             <p className="grid-subtext text-center">Email</p>
             </div>
-              <div className="copy-container" onClick={handleCopy}>
-                <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
+              <div className="copy-container" onClick={handleCopyPersonal}>
+                <p className='lg:text-2xl md:text-xl font-medium text-gray_gradient'>Personal:</p>
+                <img src={hasCopiedPersonal ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
                 <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient">aimanfarizz33@gmail.com</p>
+              </div>
+              <div className="copy-container" onClick={handleCopyTulsa}>
+                <p className='lg:text-2xl md:text-xl font-medium text-gray_gradient'>Tulsa:</p>
+                <img src={hasCopiedTulsa ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
+                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient">aba9132@utulsa.edu</p>
+              </div>
+              <div className="copy-container" onClick={handleCopyJunia}>
+                <p className='lg:text-2xl md:text-xl font-medium text-gray_gradient'>JUNIA:</p>
+                <img src={hasCopiedJunia ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
+                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient">aiman-fariz.akmal@student.junia.com</p>
               </div>
             </div>
           </div>
