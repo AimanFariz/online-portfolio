@@ -26,7 +26,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-              My go-to tech stack includes React with Typescript for frontend development, Node.js for backends, and MongoDB for database management. I also use Tailwind for styling and Figma for UI/UX design. For data analysis, I leverage Python, R, and SQL.
+              My go-to tech stack includes React with Typescript for frontend development, Node.js for backends, and MySQL for database management. I also use Tailwind for styling and Figma for UI/UX design. For data analysis, I leverage Python, R, and SQL.
               </p>
             </div>
           </div>
