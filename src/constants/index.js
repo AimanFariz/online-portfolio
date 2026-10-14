@@ -33,7 +33,7 @@ export const navLinks = [
       title:"Tulsa Athletics Case Study",
       category:"Design",
       image:"/assets/case study.png",
-      link:"https://www.figma.com/proto/YBvKQyl0aUcXVIR1H1zkto/TU-Athletics-Mobile-App-Case-Study?node-id=1-1841&page-id=0%3A1&t=jCADN1S28eli0o3B-1"
+      link:"https://drive.google.com/file/d/1opTEiNagNryOsRhPEFQxUqNUB87Qo2PL/view?usp=sharing"
     },
     {
       id: 3,
