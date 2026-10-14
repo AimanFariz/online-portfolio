@@ -63,21 +63,23 @@ export const navLinks = [
       image:"/assets/blitz-thumbnail.png",
       link:"https://drive.google.com/file/d/10ktK4mZAmEQPRPSqT5EaednjJWCRiVwe/view?usp=sharing"
     },
+
+     {
+      id: 7,
+      title:"Don Pollo Quiz",
+      category:"Web Development",
+      image:"/assets/don-quiz.jpg",
+      link:"https://don-pollo-quiz.vercel.app/"
+    },
     
     {
-      id: 7,
+      id: 8,
       title:"Pickoff Probability Model",
       category:"Sports Analytics",
       image:"/assets/baseball.jpg",
       link:"https://drive.google.com/file/d/1BLgyWDHDEcheHo4JaXUp1A8RMdXFVbQU/view?usp=sharing"
     },
-    {
-      id: 8,
-      title:"Craftcha",
-      category:"Web Development",
-      image:"/assets/craftcha.png",
-      link:"https://github.com/AimanFariz/craftcha"
-    },
+    
     {
       id: 9,
       title:"CareerCrisp",
@@ -101,10 +103,10 @@ export const navLinks = [
     },
     {
       id: 12,
-      title:"Don Pollo Quiz",
+      title:"Craftcha",
       category:"Web Development",
-      image:"/assets/don-quiz.jpg",
-      link:"https://don-pollo-quiz.vercel.app/"
+      image:"/assets/craftcha.png",
+      link:"https://github.com/AimanFariz/craftcha"
     },
   ]
   
