@@ -12,7 +12,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I’m Aiman Fariz</p>
               <p className="grid-subtext">
-              I'm a Presidential Scholar @ <a href="https://utulsa.edu/" className='hover:text-white-800'>The University of Tulsa</a>, currently a junior, triple majoring in Computer Science, Mathematics, and French. My interests include sports analytics, language learning, and open source contributions.
+              I'm a Presidential Scholar @ <a href="https://utulsa.edu/" className='hover:text-white-800'>The University of Tulsa</a>, a senior triple majoring in Computer Science, Mathematics, and French. I'm currently on a study abroad program at <a href="https://www.junia.com/" target='blank'>JUNIA HEI</a> in their InfoFin track. My interests include but are not limited to data analytics, language learning, human-centered design, and open source contributions.
               </p>
             </div>
           </div>
