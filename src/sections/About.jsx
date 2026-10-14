@@ -50,7 +50,7 @@ const About = () => {
             </div>
             <div>
               <p className="grid-headtext">I’m flexible with time zone communications & locations</p>
-              <p className="grid-subtext">As an international student from Malaysia currently based in the United States, I have firsthand experience navigating the challenges of working across time zones and am adept at collaborating effectively with individuals in different regions.</p>
+              <p className="grid-subtext">As an international student from Malaysia who studied in the United States and currently based in France, I have firsthand experience navigating the challenges of working across time zones and am adept at collaborating effectively with individuals in different regions.</p>
             </div>
           </div>
         </div>
